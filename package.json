@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-demo",
+  "version": "1.0.0",
+  "description": "plugin demo",
+  "main": "index.js",
+  "engines": {
+  	"gitbook": ">1.x.x"
+  },
+  "gitbook": {
+  	"properties": {
+  	  "myConfigKey": {
+  		"type": "string",
+  		"default": "default value",
+  		"description": "awesome config"
+  	  }
+  	}
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "dmeo"
+  ],
+  "author": "youchain-dev",
+  "license": "ISC"
+}
